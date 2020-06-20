@@ -1,0 +1,246 @@
+body{
+    min-width: 320px;
+    font-size: 14px;
+    font-family: "Avenir", sans-serif;
+    /* font-family: "MuseoSans", sans-serif; */
+}
+img{
+    width: 100%;
+}
+nav{
+    background-color: #f7fdfe;
+}
+.navbar{
+    font-family: "Museo Sans -700", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.navbar-brand{
+    color: #82868f;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+.navbar-nav{
+    color: #82868f;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+}
+a:not([href]){
+    color: #fff;
+}
+a:not([href]):hover {
+    color: #f7fdfe;
+    text-decoration: none;
+}
+.btn{
+    width: 100px;
+    height: 34px;
+    font-size: 14px;
+    border-radius: 19px;
+    background-color: #0ebfdd;
+    border-color: #0ebfdd;
+}
+header{
+    height: 600px;
+    background-image: url(header-background.png);
+    background-position: center;
+    background-size: cover;
+}
+.post-category{
+    padding-top: 395px;
+    color: #f7fdfe;
+    font-family: "Avenir - Heavy", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.post-subtitle{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 804px;
+    color: #f7fdfe;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.main__about{
+    padding-top: 66px;
+    color: #0ebfdd;
+    font-family: "Avenir - Heavy";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.main__text{
+    color: #45494d;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 805px;
+    padding-top: 1.25rem;
+}
+
+
+.main__content{
+    color: #f7fdfe;
+    background-color: #0ebfdd;
+    margin-top: 6.25rem;
+}
+.row{
+    margin-right: 0px;
+    position: relative;
+    justify-content: center;
+}
+.gallery-title{
+    padding-top: 3.6rem;
+    color: #ffffff;
+    font-family: "Avenir - Heavy";
+    font-size: 44px;
+    font-weight: 600;
+}
+.card-body{
+    padding-top: 0.5rem;
+}
+.card-title{
+    margin-top: 0rem;
+    margin-bottom: -0.2rem;
+    font-size: 18px;
+    font-weight: 800;
+}
+.card-text{
+    padding-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card{
+    font-family: "MuseoSans", sans-serif;
+    padding-top: 6.25rem;
+    background-color: #0ebfdd;
+    border: 0;
+    margin-bottom: 13rem;
+}
+
+
+.button{
+    margin-left: 0.5rem;
+    border:0;
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    border-radius: 19px;
+    border: 1px solid #f9fbfb;
+    background-color: inherit;
+    color: #f7fdfe;
+    font-family: "MuseoSans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 28.125rem;
+}
+.button:focus{
+    outline: none;
+}
+.button:hover{
+    background-color: #fff;
+    color: black;
+    transition: all .5s;
+}
+
+
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:53%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer{
+    height: 130px;
+    background-color: #45494d;
+    padding: 40px 0;
+    color: #9da3a8;
+    text-transform: uppercase;
+}
+.footer-left{
+    position: relative;
+}
+.footer-left a{
+    text-align: center;
+    color: #d7dee4;
+    margin-right: 20px;
+}
+.footer-right a{
+    font-size: 1.2rem;
+    color: #d7dee4;
+    margin-left: 20px;
+}
+.footer__main{
+    position: relative;
+}
+.footer__main::before{
+    content: "";
+    position: absolute;
+    bottom: 0;            
+    left: 0;
+    width: auto;
+    height: 1px;
+    background-color: #8a8d91;
+    opacity: 0.3;
+    right: 0;
+    margin: 0 auto;
+}
+
+.footer-bottom a{
+    color: #73767a;
+    font-family: "MuseoSans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 15.94px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 15.94px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:768px){
+    .main__content .card{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1.875rem;
+        margin-bottom: 3.125rem;
+    }
+    .button{
+        margin-top: 70rem;
+    }
+    .card:last-child{
+        margin-bottom: 6rem;
+    }
+}
+@media (min-width: 576px){
+    
+}
+@media screen and (max-width:420px){
+    .post-category{
+        line-height: 1.3rem;
+    }
+    footer{
+        height: 170px
+    }
+
+}
